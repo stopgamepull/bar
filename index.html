@@ -2,16 +2,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>BARSIMULATOR</title>
+    <title>ASCII Eatery</title>
 </head>
 <body>
     <div class="preloader" id="preloader">
         <div>
-            <h1 style="text-align: center;">BARSIMULATOR</h1>
-            <div class="progress-bar">
-                <div class="progress-bar-fill" id="progressBarFill"></div>
+            <h1 style="text-align: center;">ASCII Eatery</h1>
+            <div class="progress-FoodCMD">
+                <div class="progress-FoodCMD-fill" id="progressFoodCMDFill"></div>
             </div>
-            <div class="progress-bar_bottom">
+            <div class="progress-FoodCMD_bottom">
                 <span>Loading...</span>
                 <div class="progress-percentage" id="progressPercentage">0%</div>
             </div>
@@ -19,7 +19,7 @@
     </div>
     <header>
        <h1 class="main-title">
-         BARSIMULATOR
+         ASCII Eatery
        </h1>
     </header>
     <main class="content">
@@ -44,7 +44,7 @@
 |   ♪♪ ♪♪ ♪♪ ♪♪ ♪♪ ♪♪ ♪♪                       ^^^^^^^^  ^^^^^^^^  ^^^^^^^^                          |                                                   |
 |                                                                                                    |      0 0 0 0 0 0 0                                |
 +--------------------------------------+      ----+---------------------------------------+      ----+----------------------------------------+      ----+
-|                     BAR              |          |                 B A T H R O O M       |          |                  STORAGE ROOM          |          |
+|                     FoodCMD              |          |                 B A T H R O O M       |          |                  STORAGE ROOM          |          |
 |   k Stock: ###                   |          |  Sink: ==                             |          |  Food Stock: ===                       |          |
 |   Chairs: ^                                     |  Toilet: ()                                      |  Alco: *                                          |
 |                                                 |                                                  |  Food: @                                          |
@@ -63,13 +63,13 @@
             </pre>
             <div data-person="cooker" class="cooker clickable">cooker <span class="cooker_dot"></span></div>
             <div data-person="waiter" class="waiter clickable">waiter <span class="waiter_dot"></span></div>
-            <div data-person="bartender" class="bartender clickable">bartender <span class="bartender_dot"></span></div>
+            <div data-person="FoodCMDtender" class="FoodCMDtender clickable">FoodCMDtender <span class="FoodCMDtender_dot"></span></div>
         </div>
 
     <!-- Кнопка для открытия модального окна -->
     <div>
         <button id="openModal">Advanced</button>
-        <button>$BAR</button>
+        <button>$FoodCMD</button>
         <a class="link" href="">Twitter</a>
     </div>
 
@@ -83,7 +83,7 @@
     <div id="modal" class="modal">
         <div class="modal-content">
             <span class="close-button" id="closeModal">�</span>
-            <h2 class="title">Welcome to BARSIMULATOR Synchronization complete...</h2>
+            <h2 class="title">Welcome to ASCII Eatery Synchronization complete...</h2>
             <div id="modalText"></div>
 
         </div>
